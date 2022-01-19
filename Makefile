@@ -36,7 +36,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	ar -rc $(NAME) $(OBJ)
 
-bonus: $(OBJS) $(B_OBJ)
+bonus: $(OBJ) $(B_OBJ)
 	ar -rc $(NAME) $(OBJS) $(B_OBJ)
 
 clean:

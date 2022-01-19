@@ -37,7 +37,7 @@ $(NAME): $(OBJ)
 	ar -rc $(NAME) $(OBJ)
 
 bonus: $(OBJ) $(B_OBJ)
-	ar -rc $(NAME) $(OBJS) $(B_OBJ)
+	ar -rc $(NAME) $(OBJ) $(B_OBJ)
 
 clean:
 	rm -f $(OBJ) $(B_OBJ)
